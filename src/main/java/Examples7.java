@@ -54,6 +54,7 @@ public class Examples7 {
         String str = strings.stream().collect(Collectors.joining(":","<b>","</b>"));
         System.out.println(str);
 
+
         //Преобразовать в map, где первый символ ключ, второй символ значение
         System.out.println("------------------------Преобразовать в map, где первый символ ключ, второй символ значение");
         Map map1 = strings.stream().distinct().collect(Collectors.toMap(s -> s.substring(0,1), s -> s.substring(1,2)));

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/java-stream-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new/java/sherlock" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new2/android-rotate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new2/android-saper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new2/android-toast-timer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new2/html-clinica" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new2/java-courses" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new3/Servlet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new3/hibernate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new3/java-courses" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new3/java-stream-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new3/restserver" vcs="Git" />
+  </component>
+</project>

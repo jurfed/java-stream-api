@@ -20,7 +20,6 @@ public class Examples4 {
     public void start() {
 
         Stream<String> stringStream;
-        Stream<String> resultStream;
         List<String> resultList;
 
         //Добавить "_1" к каждому элементу первой коллекции

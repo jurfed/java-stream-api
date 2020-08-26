@@ -65,7 +65,7 @@ public class Examples7 {
         Map map2 = strings.stream().collect(Collectors.groupingBy(s -> s.substring(0,1)));
         System.out.println(map2);
 
-        //Преобразовать в map, сгруппировав по первому символу строки и объединим вторые символы через
+        //Преобразовать в map, сгруппировав по первому символу строки и объединим вторые символы через :
         System.out.println("------------------------Преобразовать в map, сгруппировав по первому символу строки и объединим вторые символы через :");
         Map map3 = strings.stream().collect(Collectors.groupingBy((p) -> p.substring(0, 1), Collectors.mapping((p) -> p.substring(1, 2), Collectors.joining(":"))));
         System.out.println(map3);

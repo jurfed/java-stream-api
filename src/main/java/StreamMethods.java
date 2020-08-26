@@ -43,7 +43,7 @@ public class StreamMethods {
         //map to int, double, long
         System.out.println("-------------map to int, double, long");
         stringStream = Stream.of("1", "2", "3");
-        stringStream.mapToInt(value -> Integer.parseInt(value)).peek(System.out::println).toArray();
+        stringStream.mapToInt(Integer::parseInt).peek(System.out::println).toArray();
 
         //Flat map - split this stream
         System.out.println("------------------Flat map");

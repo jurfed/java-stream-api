@@ -35,7 +35,7 @@ public class Examples7 {
 		IntSummaryStatistics intSummaryStatistics = integers.stream().collect(Collectors.summarizingInt(value -> value + 3));
 		System.out.println(intSummaryStatistics);
 
-		//Разделить числа на четные и нечетные
+		//Разделить числа на четные и нечетные: Map<Boolean, List<Integer>>
 		System.out.println("------------------------Разделить числа на четные и нечетные");
 		Map map = integers.stream().collect(Collectors.partitioningBy(integer -> integer % 2 == 0));
 		System.out.println(map);
@@ -64,7 +64,7 @@ public class Examples7 {
 		Map map1 = strings.stream().distinct().collect(Collectors.toMap(s -> s.substring(0, 1), s -> s.substring(1, 2)));
 		System.out.println(map1);
 
-		//Преобразовать в map, сгруппировав по первому символу строки
+		//Преобразовать в map, сгруппировав по первому символу строки: HashMap<String, ArratList<String>>
 		System.out.println("------------------------Преобразовать в map, сгруппировав по первому символу строки");
 		Map map2 = strings.stream().collect(Collectors.groupingBy(s -> s.substring(0, 1)));
 		System.out.println(map2);
